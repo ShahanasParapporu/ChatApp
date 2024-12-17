@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "911751497448",
+    "project_id": "flutter-chat-app-44c5c",
+    "storage_bucket": "flutter-chat-app-44c5c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911751497448:android:b029e6d637da39f11eab5d",
+        "android_client_info": {
+          "package_name": "com.example.ch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUJe-AJGUQcQOE2s8ZK_GVeiguMhzPw6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911751497448:android:116f041f6729f2511eab5d",
+        "android_client_info": {
+          "package_name": "com.example.chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUJe-AJGUQcQOE2s8ZK_GVeiguMhzPw6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911751497448:android:a900496b5c6d511a1eab5d",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUJe-AJGUQcQOE2s8ZK_GVeiguMhzPw6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+// Repositories for all projects
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// Define custom build directory for root project
+def newBuildDir = new File(rootDir, "../../build")
+rootProject.buildDir = newBuildDir
+
+// Define custom build directory for each subproject
+subprojects {
+    def newSubprojectBuildDir = new File(newBuildDir, project.name)
+    project.buildDir = newSubprojectBuildDir
+}
+
+// Make sure subprojects depend on the ':app' project
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+// Clean task to delete build directory
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
